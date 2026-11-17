@@ -1,0 +1,18 @@
+
+# Java / Maven
+backend/target/
+
+# H2 database files
+backend/data/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+*.iml
