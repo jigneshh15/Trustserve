@@ -43,7 +43,7 @@ const get = key =>
 const set = (key, value) =>
     localStorage.setItem('ts_' + key, JSON.stringify(value));
 
-const API_BASE = "https://trustserve-r0vq.onrender.com";
+https://trustserve-r0vq.onrender.com/api/auth/login
 let selectedService = 'cleaning';
 
 let currentUser =
